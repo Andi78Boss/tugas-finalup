@@ -1,0 +1,158 @@
+/* navbar */
+
+.navbar {
+  text-align: right;
+  word-spacing: 10px;
+  height: auto;
+  background-color: rgb(222, 202, 255);
+  margin-bottom: 25px;
+}
+
+.navbar ul {
+  padding: 10px 10px;
+}
+
+.navbar ul li {
+  list-style-type: none;
+  display: inline-block;
+  height: 100%;
+  font-weight: bold;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar a:hover {
+  color: black;
+}
+
+/* profil */
+
+.profil {
+  background-color: white;
+  height: auto;
+  text-align: center;
+}
+
+.profil ul {
+  padding-left: 0px;
+}
+
+.profil ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.profil ul li .data {
+  /* background-color: aqua; */
+  display: inline-block;
+  width: 230px;
+  margin-top: 30px;
+}
+
+.profil ul li .data img {
+  width: 170px;
+  height: 170px;
+  border: 5px solid silver;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  box-shadow: -1px -1px 8px rgb(136, 136, 136);
+}
+
+.profil ul li .data1 {
+  position: relative;
+  width: 300px;
+  /* background-color: grey; */
+  display: inline-block;
+}
+
+a .kontak {
+  padding: 7px 20px;
+  margin-top: 50px;
+  background-color: skyblue;
+  border-radius: 10%;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.kontak:hover {
+  background-color: rgb(137, 137, 235);
+  color: white;
+}
+
+a .resume {
+  padding: 7px 17px;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: aqua;
+  border-radius: 10%;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.resume:hover {
+  background-color: rgb(137, 137, 235);
+  color: white;
+}
+
+
+.profil ul li .data2 {
+  /* background-color: silver; */
+  position: relative;
+  width: 100px;
+  padding: 20px 25px;
+  display: inline-block;
+}
+
+.profil ul li .data3 {
+  /* background-color: silver; */
+  position: relative;
+  width: 120px;
+  padding: 20px 25px;
+  margin-left: 5px;
+  display: inline-block;
+}
+
+/* form */
+
+form {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: white;
+  padding: 10px 20px;
+}
+
+.nama,
+.role,
+.avail,
+.usia,
+.lokasi,
+.exp,
+.email {
+  width: 99%;
+  margin-bottom: 5px;
+}
+
+.submit {
+  margin-top: 25px;
+  width: 100%;
+  font-weight: bold;
+  border-radius: 6px;
+  color: rgb(0, 0, 0);
+  background-color: skyblue;
+}
+
+.submit:hover {
+  background-color: rgb(137, 137, 235);
+  color: white;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 0px 30px;
+  background-color: rgb(255, 245, 245);
+  background-image: url(bg1.jpg);
+}
