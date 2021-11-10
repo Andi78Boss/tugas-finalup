@@ -4,3 +4,6 @@ Fitur :
 -lightbox (portfolio)
 -Landing element
 -Scroll swing
+
+https://powerss.netlify.app/
+https://github.com/Andi78Boss/tugas-finalup
